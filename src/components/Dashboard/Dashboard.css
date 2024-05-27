@@ -1,0 +1,113 @@
+.employee {
+    display: flex;
+    justify-content: space-between;
+   
+   
+    height: 10px;
+  }
+  .name{
+    font-weight: bold;
+  }
+  .rank{
+    vertical-align: middle;
+  }
+  .rank p{
+   
+    text-align: center;
+    
+  
+  
+  }
+  
+  table {
+    border-collapse: separate;
+    table-layout: fixed;
+    margin-left: 55px;
+    width: 70%;
+    border-width: 1px;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-radius: 10px;
+  }
+ 
+
+  #col{
+    background-color: blue;
+    color: white;
+  }
+  tr:nth-child(even) {
+    background-color: white;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: rgba(239, 237, 237, 0.926);
+  }
+  
+  #first {
+    background-color: rgb(52, 114, 223);
+    color: rgb(235, 240, 245);
+  }
+  
+  th {
+    font-weight: lighter;
+    text-align: center;
+  }
+  th,
+  td {
+    border: none;
+    padding: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .employee-man {
+    width: 20%;
+    background-color: rgb(251, 251, 251);
+    margin-right: 60px;
+    border-radius: 10px;
+    height: 470px;
+  }
+  
+  .employee-man-rank {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 1rem;
+  }
+  
+  .man-img {
+    width: 100%;
+    height: 100;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  .employee-man-rank h3 {
+    color: rgb(52, 114, 223);
+  }
+  
+  .employee-man-rank:first-child p {
+    font-weight: bold;
+  }
+  .img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+
+  .small-dp{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+   position: relative;
+   top: 10px;
+  }
+
+  .medal {
+  width: 20px;
+  height: 20px;
+  margin-right:50px;
+  vertical-align: middle;
+}

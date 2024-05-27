@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  height: 10vh;
+  justify-content: flex-start;
+  
+}
+
+.home h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 900px;
+  top: 40px;
+}
+
+
+
+ .koders{
+  
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 0;
+  
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 0;
+}
+
+.first {
+  width: 30%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50px;
+  right:100px;
+}
+
+.second {
+  width: 65%;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 50px;
+  right:50px;
+}
+.first h2,
+.second p {
+  font-weight: bold;
+  color: black;
+}
+
+
+@media screen and (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
+
+  .home h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 300px;
+    bottom: 566px;
+  }
+  .first,
+  .second {
+    width: 100%;
+    justify-content: center;
+  }
+}
